@@ -1,0 +1,82 @@
+h1 {
+
+  text-align:center;
+  color: Blue;
+  background-color: darkorange;
+  width: 500px;
+  float: left;
+  border-style: dotted;
+  margin-left: 500px;
+}
+h2 {
+  text-align:center;
+  color: red;
+  background-color: teal;
+  width: 500px;
+  float: left;
+  border-style: dashed;
+  margin-top: 150px;
+}
+Ul {
+  text-align:left;
+  color: red;
+  background-color: magenta;
+  width: 300px;
+  float: left;
+  border-style: groove;
+  margin-top: 5px;
+}
+h3 {
+  text-align:center;
+  color: green;
+  background-color: blue;
+  width: 300px;
+  float: left;
+  border-style: groove;
+  margin-top: 5px;
+}
+h4 {
+  text-align:center;
+  color: red;
+  background-color: green;
+  width: 250px;
+  float: left;
+  border-style: groove;
+  margin-top: 5px;
+}
+h5 {
+  text-align:center;
+  color: red;
+  background-color: chartreuse;
+  width: 250px;
+  float: left;
+  border-style: groove;
+  margin-top: 5px;
+}
+h6 {
+  text-align:center;
+  color: red;
+  background-color: yellow;
+  width: 250px;
+  float: left;
+  border-style: groove;
+  margin-top: 5px;
+}
+footer {
+  text-align:center;
+  color: indigo;
+  background-color: black;
+  width: 300px;
+  float: left;
+  border-style: groove;
+  margin-top: 5px;
+}
+a {
+  text-align:center;
+  color: indigo;
+  background-color: orange;
+  width: 300px;
+  float: left;
+  border-style: groove;
+  margin-top: 5px;
+}
