@@ -3,15 +3,17 @@
   width: 300px;
   border: 30px solid purple;
   background: yellow;
+  justify-content: center;
 }
 .container {
-  height: 400px;
-  background-color: pink;
+  width: 1550px;
+  background-color: chartreuse;
   display: flex;
-  flex-direction: row;
+  flex-direction: center;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 h1 {
