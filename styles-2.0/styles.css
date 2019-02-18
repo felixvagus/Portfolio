@@ -9,7 +9,6 @@
   width: 1550px;
   background-color: chartreuse;
   display: flex;
-  flex-direction: center;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
