@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Rokkitt');
 body > h2{
   font-family: Rokkitt, serif;
+
+    h2::first-letter { font-size: 150%; }
+    p a:visited { color: green; }
+    footer:hover { color: green; }
+    a:hover { color: red; }
+    a:hover { border: 3px red; }
+
 }
 .fa-jedi-order {
   width: 50px;
