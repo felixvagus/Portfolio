@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel=stylesheet" href="styles-2.0/styles-3.0.css">
+    <title>Contact Form</title>
+  </head>
+
+  <body>
+    <a href="index.html">Back</a>
+    <h1>Portfolio Contact Sheet</h1>
+    <form name="contact" action="/submit.php" method="GET">
+
+      <fieldset>
+        <label>Your name:
+          <input type="text" name="name">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label>Your email:
+          <input type="email" name="email">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Are you also here to grade my site?</legend>
+        <label>Yes
+          <Input type="radio" name="professor" value="yes">
+          </label>
+        <label>No
+            <Input type="radio" name="professor" value="no">
+        </label>
+      </fieldset>
+
+      <fieldset class="checkbox">
+        Are you a fan of any of these epic trilogies?
+        Pick all that apply:
+        <br>
+        <label>Lord of the Rings
+          <input type="checkbox" name="movie" value="lord-of-the-rings">
+          <span class="checkmark"></span>
+        </label>
+        <label>Original Star Wars
+          <input type="checkbox" name="movie" value="original-star-wars">
+          <span class="checkmark"></span>
+        </label>
+        <label>Back to the Future
+          <input type="checkbox" name="movie" value="back-to-the-future">
+          <span class="checkmark"></span>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label>Brief reason for contact:
+          <input type="text" name="reason">
+        </label>
+      </fieldset>
+
+        <input type="submit" value="Talk to me!">
+
+      </form>
+
+  </body>
+</html>
