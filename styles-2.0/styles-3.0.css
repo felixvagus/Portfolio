@@ -1,0 +1,31 @@
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+fieldset input {
+  display: inline;
+}
+
+fieldset {
+  border: none;
+}
+
+/* customize the labels */
+.checkbox label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 5px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+body {
+  background-color: turquoise;
+}
